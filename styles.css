@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 235, 215)
+}
+
+.header {
+    margin: 30px 40px 30px 40px;
+    height: 200px;
+    width: auto;
+    background-color: black;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.header img {
+    height: 100px;
+    width: auto;
+
+    padding-left: 25px;
+}
+
+.news-container {
+    margin: 30px 40px 30px 40px;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+}
+
+.news-main, .news-title {
+    font-family: 'Source Sans 3', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.news-main {
+    font-size: 32px;
+}
+
+.news-subcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.news-card {
+    width: 25%;
+    height: 100%;
+}
+
+.news-card-img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.news-title {
+    font-size: 20px;
+}
