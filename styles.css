@@ -107,3 +107,18 @@ body {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.footer {
+    width: auto;
+    height: 150px;
+    margin: 30px 40px 30px 40px;
+    background-color: black;
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+}
+
+.footer-title, .footer-description {
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+}
