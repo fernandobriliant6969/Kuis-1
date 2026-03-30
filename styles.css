@@ -165,7 +165,7 @@ body {
     .header img { width: 75%; }
     .news-card { width: 48%;}
     .news-subcontainer { flex-wrap: wrap; }
-    .documentaries-card { width: 48%;}
+    .documentaries-card { width: 24%;}
     .documentaries-subcontainer { flex-wrap: wrap; }
     .footer { height: 275px;}
     .footer-title { text-align: center;}
