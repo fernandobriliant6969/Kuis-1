@@ -110,15 +110,34 @@ body {
 
 .footer {
     width: auto;
-    height: 150px;
+    height: 200px;
     margin: 30px 40px 30px 40px;
     background-color: black;
     border-radius: 16px;
-    align-items: center;
-    display: flex;
 }
 
 .footer-title, .footer-description {
     font-family: 'Source Sans 3', sans-serif;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer-description {
+    font-size: 24px;
+}
+
+.button-footer {
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 8px;
 }
